@@ -76,7 +76,7 @@ input:focus {
 input:valid {
   border: 2px solid rgba(160, 188, 87, 1.0);
 }
-.invalid {
+.invalid input:invalid {
   border: 2px solid rgba(199, 60, 58, 1.0);
 }
 fieldset {
