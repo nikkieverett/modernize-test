@@ -34,26 +34,7 @@
               e.target.className += ' invalid';
             }, true);
           }
-        // let form = document.getElementsByTagName('form');
-        // let inputs = document.getElementsByTagName('input');
-        // console.log(form[0]);
-        // for(var i = 0; i < inputs.length; i++){
-        //   inputs[i].addEventListener('change', function(evt){
-        //     console.log(evt.target);
-        //
-        //     if(evt.target.type != "submit"){
-        //
-        //       let validity = form[0].checkValidity();
-        //       if(validity == false){
-        //         evt.target.classList.add('invalid');
-        //       } else if (validity == true ){
-        //         evt.target.classList.remove('invalid');
-        //         evt.target.classList.add('valid');
-        //       }
-        //     }
-        //   });
-        //   submitForm();
-        // };
+  
         function submitForm(){
           $("form").on('submit', function(e) {
             e.preventDefault();
