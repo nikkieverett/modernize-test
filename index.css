@@ -7,7 +7,7 @@ body {
   font-size: 1em;
   margin: 0 30%;
 }
-@media(max-width: 600px){
+@media and screen (max-width: 600px){
   body {
     margin: 10%;
   }
@@ -75,6 +75,9 @@ input:focus {
 }
 input:valid {
   border: 2px solid rgba(160, 188, 87, 1.0);
+}
+.invalid {
+  border: 2px solid rgba(199, 60, 58, 1.0);
 }
 fieldset {
   border: rgba(160, 188, 87, 1.0) 2px solid;
